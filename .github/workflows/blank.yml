@@ -38,4 +38,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo "INPUT: ${github.event.inputs.name}"
+          echo "INPUT: ${{ github.event.inputs.name }}"
